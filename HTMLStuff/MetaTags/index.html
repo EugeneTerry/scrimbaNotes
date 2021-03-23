@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="discription" content="My first HTML website">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Learning HTML</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <!--This css stylesheet file is online somewhere and I can use it anytime I want and there are many others to choose from-->
+    
+    <style>
+        h1 {
+            text-align: center; 
+        }
+    </style>
+<!-- This overides the style above--> 
+
+</head>
+<body>
+    <h1 id="h1" style="color: gold;">
+        Hello World!
+    </h1>
+    <!-- the inline style can overide above also-->
+    <script>
+        document.getElementById("h1").innerHTML = "Hello Universe!";
+        //This javascript can modify the text on the HTML but it must have a tag or variable "h1" it needs an id="h1" somewhere
+    </script>
+</body>
+</html>
