@@ -1,0 +1,23 @@
+/* classes in CSS 
+there are classes named "box" in the html annd this can be placed almost anywhere
+in the html to modify the look of the content
+this one places a box around a section of text with a border*/
+
+.box {
+    border: 2px solid;
+    background-color: white;
+}
+/* now we are going to call some specific loctions in the html by using "ids" 
+we are changing the color of the texts to the identified sections*/
+#classes {
+    color: slateblue;
+}
+#ids {
+    color: tomato;
+}
+/*
+lets target just the bold words in the paragraph of the "classes" id and bold words in 
+the li (stands for list items (bullets)) of the "ids" id*/
+#classes > p > b, #ids li > b {
+    color: goldenrod;
+}

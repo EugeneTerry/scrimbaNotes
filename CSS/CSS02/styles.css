@@ -1,0 +1,7 @@
+/* Selectors */
+/* the b only chooses the stuff in the bold part of the html. the "section b" only touches the stuff in the section part of the bold */
+/* the > lets me know that i only want to touch the direct child of the section. nothing else.*/
+/* the , aloows me to add multiple parts to be selected other than what's in the section part */
+section > b, div > b {
+    color: blueviolet;
+}
