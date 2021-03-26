@@ -1,0 +1,13 @@
+/* Specificity in CSS*/
+html body {
+    background-color: aqua;
+}
+
+body {
+    background-color: goldenrod;
+}
+.test {
+    height: 300px;
+    width: 125px;
+    border: 35px solid red;
+}
